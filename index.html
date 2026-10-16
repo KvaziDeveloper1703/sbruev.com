@@ -14,8 +14,8 @@
     body::after { content: ""; position: fixed; inset: 0; opacity: .17; background-image: linear-gradient(#6f8cc333 1px, transparent 1px), linear-gradient(90deg, #6f8cc333 1px, transparent 1px); background-size: 56px 56px; mask-image: linear-gradient(to bottom, transparent, black 30%, transparent); pointer-events: none; }
     main { position: relative; z-index: 1; padding: 32px 20px; text-align: center; width: min(100%, 900px); animation: enter .9s ease-out both; }
     .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .28em; text-transform: uppercase; color: #a5b9f5; margin-bottom: 18px; }
-    h1 { font-size: clamp(3rem, 9vw, 7rem); line-height: 1.04; letter-spacing: -.065em; margin: 0; font-weight: 800; }
-    h1 span { display: block; background: linear-gradient(100deg, #fff 20%, #b5c8ff 80%); color: transparent; background-clip: text; }
+    h1 { font-size: clamp(1.25rem, 5.4vw, 4.2rem); white-space: nowrap; line-height: 1.04; letter-spacing: -.065em; margin: 0; font-weight: 800; }
+    h1 span { display: inline; background: linear-gradient(100deg, #fff 20%, #b5c8ff 80%); color: transparent; background-clip: text; }
     p { margin: 26px auto 0; max-width: 470px; color: #a8b3cc; font-size: clamp(15px, 2.3vw, 18px); line-height: 1.7; }
     .line { width: 160px; height: 3px; background: #ffffff1a; border-radius: 10px; margin: 38px auto 0; overflow: hidden; }
     .line::after { content: ""; display: block; width: 45%; height: 100%; background: #9db7ff; border-radius: inherit; animation: loading 2.2s ease-in-out infinite alternate; }
@@ -28,7 +28,7 @@
 <body>
   <main>
     <div class="eyebrow">SBRUEV.COM</div>
-    <h1><span>Сайт</span><span>в разработке.</span></h1>
+    <h1><span>Сайт в разработке.</span></h1>
     <div class="line" aria-hidden="true"></div>
   </main>
   <footer>© sbruev.com</footer>
